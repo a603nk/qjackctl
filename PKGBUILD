@@ -5,6 +5,7 @@ pkgver=0.9.11
 pkgrel=1
 pkgdesc='QjackCtl - JACK Audio Connection Kit Qt GUI Interface'
 arch=('amd64')
+depends=('libqt5xml5' 'libportaudio2')
 makedepends=('cmake' 'git' 'qttools5-dev' 'libqt5svg5-dev' 'libjack-jackd2-dev' 'portaudio19-dev')
 provides=('qjackctl')
 conflicts=('qjackctl')
